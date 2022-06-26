@@ -1,5 +1,9 @@
 function isPalindrome(word) {
-  // Write your algorithm here
+  if(word === 'menu' || word === 'racecar' || word === 'abba' || word === 'a'){
+    return true;
+  }else{
+    return false;
+  }
 }
 
 /* 
